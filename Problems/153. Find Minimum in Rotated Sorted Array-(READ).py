@@ -22,7 +22,9 @@ class Solution:
             
         return -1
         
-arr = [4,5,1,2,3]
+
+        
+arr = [4,5,5,5]
 s = Solution()
 
 ans = s.findMin(arr)
