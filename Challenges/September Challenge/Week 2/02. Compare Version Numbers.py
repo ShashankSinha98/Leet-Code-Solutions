@@ -1,5 +1,8 @@
 
 def check_version(v1,v2):
+
+    if v1==None or v2==None or len(v1)==0 or len(v2)==0:
+        return 0
     
     l1 = [int(i) for i in v1.split(".")]
     l2 = [int(i) for i in v2.split(".")]
